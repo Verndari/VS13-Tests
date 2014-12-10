@@ -776,7 +776,7 @@ namespace HeroesTalentBuilder
             }
         }
 
-        // Sonya Skills Info Start ---
+        // Sonya Skills Info Ende ---
 
     }
 }
