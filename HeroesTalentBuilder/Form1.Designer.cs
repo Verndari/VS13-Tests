@@ -617,7 +617,8 @@
             // novaTab
             // 
             this.novaTab.AutoScroll = true;
-            this.novaTab.BackColor = System.Drawing.Color.White;
+            this.novaTab.BackColor = System.Drawing.Color.Transparent;
+            this.novaTab.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("novaTab.BackgroundImage")));
             this.novaTab.Controls.Add(this.novaSkillinfo);
             this.novaTab.Controls.Add(this.novaSkillbox20);
             this.novaTab.Controls.Add(this.novaSkillbox16);
@@ -655,10 +656,12 @@
             // novaSkillinfo
             // 
             this.novaSkillinfo.AutoSize = true;
-            this.novaSkillinfo.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.novaSkillinfo.Location = new System.Drawing.Point(264, 15);
+            this.novaSkillinfo.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.novaSkillinfo.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.novaSkillinfo.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.novaSkillinfo.Location = new System.Drawing.Point(267, 15);
             this.novaSkillinfo.Name = "novaSkillinfo";
-            this.novaSkillinfo.Size = new System.Drawing.Size(288, 15);
+            this.novaSkillinfo.Size = new System.Drawing.Size(287, 17);
             this.novaSkillinfo.TabIndex = 90;
             this.novaSkillinfo.Text = "Klicke auf das Skill Icon für den erweiterten Tooltip.";
             // 
@@ -735,7 +738,9 @@
             // novaBuild
             // 
             this.novaBuild.AutoSize = true;
+            this.novaBuild.BackColor = System.Drawing.Color.Transparent;
             this.novaBuild.Font = new System.Drawing.Font("Calibri", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.novaBuild.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.novaBuild.Location = new System.Drawing.Point(5, 112);
             this.novaBuild.Name = "novaBuild";
             this.novaBuild.Size = new System.Drawing.Size(117, 15);
@@ -746,6 +751,7 @@
             // 
             this.novaLevel20.AutoSize = true;
             this.novaLevel20.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Bold);
+            this.novaLevel20.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.novaLevel20.Location = new System.Drawing.Point(532, 207);
             this.novaLevel20.Name = "novaLevel20";
             this.novaLevel20.Size = new System.Drawing.Size(56, 15);
@@ -756,6 +762,7 @@
             // 
             this.novaLevel16.AutoSize = true;
             this.novaLevel16.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Bold);
+            this.novaLevel16.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.novaLevel16.Location = new System.Drawing.Point(448, 207);
             this.novaLevel16.Name = "novaLevel16";
             this.novaLevel16.Size = new System.Drawing.Size(56, 15);
@@ -766,6 +773,7 @@
             // 
             this.novaLevel13.AutoSize = true;
             this.novaLevel13.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Bold);
+            this.novaLevel13.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.novaLevel13.Location = new System.Drawing.Point(360, 207);
             this.novaLevel13.Name = "novaLevel13";
             this.novaLevel13.Size = new System.Drawing.Size(56, 15);
@@ -776,6 +784,7 @@
             // 
             this.novaLevel10.AutoSize = true;
             this.novaLevel10.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Bold);
+            this.novaLevel10.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.novaLevel10.Location = new System.Drawing.Point(271, 207);
             this.novaLevel10.Name = "novaLevel10";
             this.novaLevel10.Size = new System.Drawing.Size(56, 15);
@@ -786,6 +795,7 @@
             // 
             this.novaLevel7.AutoSize = true;
             this.novaLevel7.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Bold);
+            this.novaLevel7.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.novaLevel7.Location = new System.Drawing.Point(188, 207);
             this.novaLevel7.Name = "novaLevel7";
             this.novaLevel7.Size = new System.Drawing.Size(49, 15);
@@ -796,6 +806,7 @@
             // 
             this.novaLevel4.AutoSize = true;
             this.novaLevel4.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Bold);
+            this.novaLevel4.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.novaLevel4.Location = new System.Drawing.Point(102, 207);
             this.novaLevel4.Name = "novaLevel4";
             this.novaLevel4.Size = new System.Drawing.Size(49, 15);
@@ -806,6 +817,7 @@
             // 
             this.novaLevel1.AutoSize = true;
             this.novaLevel1.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.novaLevel1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.novaLevel1.Location = new System.Drawing.Point(14, 207);
             this.novaLevel1.Name = "novaLevel1";
             this.novaLevel1.Size = new System.Drawing.Size(49, 15);
@@ -814,6 +826,7 @@
             // 
             // novaSkill20
             // 
+            this.novaSkill20.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.novaSkill20.Cursor = System.Windows.Forms.Cursors.Hand;
             this.novaSkill20.Image = ((System.Drawing.Image)(resources.GetObject("novaSkill20.Image")));
             this.novaSkill20.Location = new System.Drawing.Point(528, 137);
@@ -825,6 +838,7 @@
             // 
             // novaSkill16
             // 
+            this.novaSkill16.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.novaSkill16.Cursor = System.Windows.Forms.Cursors.Hand;
             this.novaSkill16.Image = ((System.Drawing.Image)(resources.GetObject("novaSkill16.Image")));
             this.novaSkill16.Location = new System.Drawing.Point(443, 137);
@@ -836,6 +850,7 @@
             // 
             // novaSkill13
             // 
+            this.novaSkill13.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.novaSkill13.Cursor = System.Windows.Forms.Cursors.Hand;
             this.novaSkill13.Image = ((System.Drawing.Image)(resources.GetObject("novaSkill13.Image")));
             this.novaSkill13.Location = new System.Drawing.Point(356, 137);
@@ -847,6 +862,7 @@
             // 
             // novaSkill10
             // 
+            this.novaSkill10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.novaSkill10.Cursor = System.Windows.Forms.Cursors.Hand;
             this.novaSkill10.Image = ((System.Drawing.Image)(resources.GetObject("novaSkill10.Image")));
             this.novaSkill10.Location = new System.Drawing.Point(267, 137);
@@ -858,6 +874,7 @@
             // 
             // novaSkill7
             // 
+            this.novaSkill7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.novaSkill7.Cursor = System.Windows.Forms.Cursors.Hand;
             this.novaSkill7.Image = ((System.Drawing.Image)(resources.GetObject("novaSkill7.Image")));
             this.novaSkill7.Location = new System.Drawing.Point(181, 137);
@@ -869,6 +886,7 @@
             // 
             // novaSkill4
             // 
+            this.novaSkill4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.novaSkill4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.novaSkill4.Image = ((System.Drawing.Image)(resources.GetObject("novaSkill4.Image")));
             this.novaSkill4.Location = new System.Drawing.Point(95, 137);
@@ -880,6 +898,8 @@
             // 
             // novaSkill1
             // 
+            this.novaSkill1.BackColor = System.Drawing.Color.Transparent;
+            this.novaSkill1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.novaSkill1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.novaSkill1.Image = ((System.Drawing.Image)(resources.GetObject("novaSkill1.Image")));
             this.novaSkill1.Location = new System.Drawing.Point(8, 137);
@@ -893,6 +913,7 @@
             // 
             this.novaRolle.AutoSize = true;
             this.novaRolle.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.novaRolle.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.novaRolle.Location = new System.Drawing.Point(78, 64);
             this.novaRolle.Name = "novaRolle";
             this.novaRolle.Size = new System.Drawing.Size(131, 15);
@@ -902,7 +923,9 @@
             // novaName
             // 
             this.novaName.AutoSize = true;
+            this.novaName.BackColor = System.Drawing.Color.Transparent;
             this.novaName.Font = new System.Drawing.Font("Calibri", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.novaName.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.novaName.Location = new System.Drawing.Point(76, 31);
             this.novaName.Name = "novaName";
             this.novaName.Size = new System.Drawing.Size(74, 33);
@@ -911,6 +934,7 @@
             // 
             // novaAvatar
             // 
+            this.novaAvatar.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.novaAvatar.Image = ((System.Drawing.Image)(resources.GetObject("novaAvatar.Image")));
             this.novaAvatar.Location = new System.Drawing.Point(8, 15);
             this.novaAvatar.Name = "novaAvatar";
